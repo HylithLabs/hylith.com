@@ -78,7 +78,7 @@ const FlavorSlider = () => {
             />
 
             <img
-              src={`/images/${flavor.color}-drink.webp`}
+              src={`/images/${flavor.color}-mockup.jpg`}
               alt=""
               className="drinks"
             />
