@@ -1,10 +1,10 @@
 import { useGSAP } from "@gsap/react";
-import { flavorlists } from "../constants";
+import { productCards } from "../constants";
 import gsap from "gsap";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 
-const FlavorSlider = () => {
+const ProductSlider = () => {
   const sliderRef = useRef();
 
   const isTablet = useMediaQuery({
@@ -17,7 +17,7 @@ const FlavorSlider = () => {
     if (!isTablet) {
       const tl = gsap.timeline({
         scrollTrigger: {
-          trigger: ".flavor-section",
+          trigger: ".showcase-section",
           start: "2% top",
           end: `+=${scrollAmount + 1500}px`,
           scrub: true,
@@ -25,7 +25,7 @@ const FlavorSlider = () => {
         },
       });
 
-      tl.to(".flavor-section", {
+      tl.to(".showcase-section", {
         x: `-${scrollAmount + 1500}px`,
         ease: "power1.inOut",
       });
@@ -33,7 +33,7 @@ const FlavorSlider = () => {
 
     const titleTl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".flavor-section",
+        trigger: ".showcase-section",
         start: "top top",
         end: "bottom 80%",
         scrub: true,
@@ -46,7 +46,7 @@ const FlavorSlider = () => {
         ease: "power1.inOut",
       })
       .to(
-        ".flavor-text-scroll",
+        ".showcase-text-scroll",
         {
           xPercent: -22,
           ease: "power1.inOut",
@@ -65,20 +65,20 @@ const FlavorSlider = () => {
 
   return (
     <div ref={sliderRef} className="slider-wrapper">
-      <div className="flavors">
-        {flavorlists.map((flavor) => (
+      <div className="product-cards">
+        {productCards.map((product) => (
           <div
-            key={flavor.name}
-            className={`relative z-30 lg:w-[50vw] w-96 lg:h-[70vh] md:w-[90vw] md:h-[50vh] h-80 flex-none bg-cover bg-center bg-no-repeat ${flavor.rotation}`}
-            style={{ backgroundImage: `url(/images/${flavor.color}-bg.svg)` }}
+            key={product.name}
+            className={`relative z-30 lg:w-[50vw] w-96 lg:h-[70vh] md:w-[90vw] md:h-[50vh] h-80 flex-none bg-cover bg-center bg-no-repeat ${product.rotation}`}
+            style={{ backgroundImage: `url(/images/${product.color}-bg.svg)` }}
           >
             <img
-              src={flavor.img ?? `/images/${flavor.color}-elements.webp`}
+              src={`/images/${product.color}-elements.webp`}
               alt=""
               className="elements"
             />
 
-            <h1>{flavor.name}</h1>
+            <h1>{product.name}</h1>
           </div>
         ))}
       </div>
@@ -86,4 +86,4 @@ const FlavorSlider = () => {
   );
 };
 
-export default FlavorSlider;
+export default ProductSlider;
