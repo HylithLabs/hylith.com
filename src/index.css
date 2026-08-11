@@ -2,6 +2,7 @@
 @import "tailwindcss";
 @import "./vimeo-hero.css";
 @import "./marquee.css";
+@import "./footer.css";
 
 @font-face {
   font-family: "ProximaNova, sans-serif";
