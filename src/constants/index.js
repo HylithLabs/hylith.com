@@ -1,17 +1,17 @@
 const flavorlists = [
   {
-    name: "Chocolate Milk",
-    color: "brown",
+    name: "Inclast",
+    color: "blue",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Stawberry Milk",
-    color: "red",
+    name: "Please ",
+    color: "black",
     rotation: "md:rotate-[8deg] rotate-0",
   },
   {
-    name: "Cookies & Cream",
-    color: "blue",
+    name: "HEEMS",
+    color: "violet",
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
