@@ -3,6 +3,8 @@
 @import "./vimeo-hero.css";
 @import "./marquee.css";
 @import "./footer.css";
+@import "./motion-cards.css";
+@import "./navbar.css";
 
 @font-face {
   font-family: "ProximaNova, sans-serif";
@@ -10,17 +12,17 @@
 }
 
 @theme {
-  --color-black: #111111;
-  --color-main-bg: #1a1a1a;
+  --color-black: #020617;
+  --color-main-bg: #0f172a;
   --color-white: #ffffff;
-  --color-dark-brown: #29725f;
-  --color-mid-brown: #82a0ff;
-  --color-light-brown: #e6fab9;
-  --color-red-brown: #f5693c;
-  --color-yellow-brown: #4b69f0;
-  --color-milk-yellow: #f0befa;
-  --color-red: #a0325a;
-  --color-milk: #f0ebe6;
+  --color-dark-brown: #0a2540;
+  --color-mid-brown: #3b82f6;
+  --color-light-brown: #e0e7ff;
+  --color-red-brown: #60a5fa;
+  --color-yellow-brown: #1d4ed8;
+  --color-milk-yellow: #dbeafe;
+  --color-red: #1e3a8a;
+  --color-milk: #f8fafc;
   --font-sans: "Antonio", sans-serif;
   --font-paragraph: "ProximaNova, sans-serif";
 }
@@ -30,8 +32,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f0ebe6;
-  color: #29725f;
+  background-color: #f8fafc;
+  color: #0a2540;
   font-family: "Antonio", sans-serif;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -81,7 +83,7 @@ body::-webkit-scrollbar {
         }
 
         h1 {
-          @apply uppercase 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold text-[#e6fab9] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-5 2xl:py-0 py-3;
+          @apply uppercase 2xl:text-[8.5rem] md:text-[6.5rem] text-[3.3rem] font-bold text-[#e0e7ff] leading-[9vw] tracking-[-.35vw] 2xl:px-[1.2vw] px-3 2xl:pb-[1vw] pb-5 2xl:py-0 py-3;
         }
       }
 
@@ -96,17 +98,17 @@ body::-webkit-scrollbar {
   }
 
   .message-content {
-    @apply bg-[#111111] text-milk min-h-dvh overflow-hidden flex justify-center items-center relative z-20;
+    @apply bg-[#020617] text-milk min-h-dvh overflow-hidden flex justify-center items-center relative z-20;
 
     .msg-wrapper {
       @apply 2xl:text-[8.5rem] md:text-8xl text-5xl font-bold uppercase leading-[9vw] tracking-[-.35vw] flex flex-col justify-center items-center md:gap-24 gap-14;
 
       h1:first-of-type {
-        @apply 2xl:max-w-4xl md:max-w-2xl max-w-xs text-center  text-[#f0ebe610];
+        @apply 2xl:max-w-4xl md:max-w-2xl max-w-xs text-center  text-[#f8fafc10];
       }
 
       h1:last-of-type {
-        @apply 2xl:max-w-7xl md:max-w-4xl max-w-xs text-center  text-[#f0ebe610];
+        @apply 2xl:max-w-7xl md:max-w-4xl max-w-xs text-center  text-[#f8fafc10];
       }
     }
 
@@ -120,7 +122,7 @@ body::-webkit-scrollbar {
     }
 
     .msg-text-scroll {
-      @apply rotate-[3deg] 2xl:translate-y-5 -translate-y-5 absolute z-10 border-[.5vw] border-[#111111];
+      @apply rotate-[3deg] 2xl:translate-y-5 -translate-y-5 absolute z-10 border-[.5vw] border-[#020617];
     }
   }
 
@@ -168,32 +170,32 @@ body::-webkit-scrollbar {
     }
 
     .nutrition-title {
-      @apply 2xl:max-w-4xl xl:max-w-2xl md:py-0 py-3 md:pb-5 pb-0 lg:pb-0 md:text-center text-[#29725f];
+      @apply 2xl:max-w-4xl xl:max-w-2xl md:py-0 py-3 md:pb-5 pb-0 lg:pb-0 md:text-center text-[#0a2540];
     }
 
     .nutrition-text-scroll {
-      @apply rotate-[-3deg] border-[.5vw] border-[#f0befa] text-nowrap opacity-0 md:-mt-32 -mt-24;
+      @apply rotate-[-3deg] border-[.5vw] border-[#dbeafe] text-nowrap opacity-0 md:-mt-32 -mt-24;
     }
 
     .nutrition-box {
       @apply absolute md:bottom-16 bottom-5 w-full md:px-0 px-5;
 
       .list-wrapper {
-        @apply bg-[#f0befa] rounded-full border-[.5vw] border-[#82a0ff] mx-auto max-w-7xl md:py-8 py-5 md:px-0 px-5 flex justify-between items-center;
+        @apply bg-[#dbeafe] rounded-full border-[.5vw] border-[#3b82f6] mx-auto max-w-7xl md:py-8 py-5 md:px-0 px-5 flex justify-between items-center;
 
         p {
-          @apply text-[#a0325a];
+          @apply text-[#1e3a8a];
         }
       }
 
       .spacer-border {
-        @apply absolute right-0 top-1/2 transform -translate-y-1/2 md:h-24 h-16 w-px bg-[#82a0ff];
+        @apply absolute right-0 top-1/2 transform -translate-y-1/2 md:h-24 h-16 w-px bg-[#3b82f6];
       }
     }
   }
 
   .benefit-section {
-    @apply min-h-dvh bg-[#111111] overflow-hidden relative;
+    @apply min-h-dvh bg-[#020617] overflow-hidden relative;
 
     p {
       @apply text-milk font-paragraph text-center text-lg;
@@ -249,10 +251,10 @@ body::-webkit-scrollbar {
   }
 
   .footer-section {
-    @apply 2xl:min-h-dvh overflow-hidden relative bg-[#1a1a1a];
+    @apply 2xl:min-h-dvh overflow-hidden relative bg-[#0f172a];
 
     .social-btn {
-      @apply border border-[#f0ebe633] md:size-[5vw] size-14 md:p-0 p-3 flex justify-center items-center rounded-full hover:bg-[#ffffff1a] transition-colors cursor-pointer;
+      @apply border border-[#f8fafc33] md:size-[5vw] size-14 md:p-0 p-3 flex justify-center items-center rounded-full hover:bg-[#ffffff1a] transition-colors cursor-pointer;
     }
 
     input {
@@ -270,13 +272,14 @@ body::-webkit-scrollbar {
 }
 
 .nutrition-section {
-  background-color: #f0ebe600;
-  background-image: radial-gradient(circle, #f0ebe6, #e6fab9);
+  background-color: #f8fafc00;
+  background-image: radial-gradient(circle, #f8fafc, #e0e7ff);
 }
 
 .spin-circle {
   animation: spin 20s linear infinite;
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);

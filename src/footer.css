@@ -1,17 +1,17 @@
 :root {
-    --color-green: #29725f;
-    --color-lightblue: #82a0ff;
-    --color-darkblue: #4b69f0;
-    --color-lightgreen: #e6fab9;
-    --color-orange: #f5693c;
-    --color-maroon: #a0325a;
-    --color-pink: #f0befa;
-    --bg-color: #f0ebe6;
+    --color-green: #0a2540;
+    --color-lightblue: #3b82f6;
+    --color-darkblue: #1d4ed8;
+    --color-lightgreen: #e0e7ff;
+    --color-orange: #60a5fa;
+    --color-maroon: #1e3a8a;
+    --color-pink: #dbeafe;
+    --bg-color: #f8fafc;
     --color-white: #ffffff;
     --color-black: #000000;
-    --color-dark: #1a1a1a;
-    --color-black-soft: #111111;
-    --color-black-deep: #0a0a0a;
+    --color-dark: #0f172a;
+    --color-black-soft: #020617;
+    --color-black-deep: #000000;
 }
 
 /* ─── Footer Shell ───────────────────────────────────────────────────────── */

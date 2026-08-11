@@ -198,7 +198,7 @@
 
 /* Legacy theme attributes (kept for compatibility) */
 .marquee-item[data-logo-theme="a"] {
-    background-color: #a52a5f;
+    background-color: #1e40af;
 }
 
 .marquee-item[data-logo-theme="b"] {
@@ -206,7 +206,7 @@
 }
 
 .marquee-item[data-logo-theme="c"] {
-    background-color: #ff6b4a;
+    background-color: #2563eb;
 }
 
 .marquee-item[data-logo-theme="d"] {
