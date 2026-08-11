@@ -139,7 +139,7 @@ const NavBar = () => {
                 </div>
                 <div className="nav-work-item__text">
                   <span className="nav-work-badge badge-blue">hylith</span>
-                  <h4 className="nav-work-title">campaign one</h4>
+                  <h4 className="nav-work-title">Open-Source Development</h4>
                 </div>
               </div>
               <div className="nav-work-item">
@@ -147,13 +147,13 @@ const NavBar = () => {
                   <img
                     src="https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/686b8e607142a7a25157d9dd_1875b9852ca289170917f9060c95b6a4_BolpuntJapie.avif"
                     loading="eager"
-                    alt="Campaign 2"
+                    alt="Product Development"
                     className="nav-work-item__img"
                   />
                 </div>
                 <div className="nav-work-item__text">
                   <span className="nav-work-badge badge-navy">spylt</span>
-                  <h4 className="nav-work-title">launch campaign</h4>
+                  <h4 className="nav-work-title">Website Development</h4>
                 </div>
               </div>
               <div className="nav-work-item">
@@ -170,7 +170,7 @@ const NavBar = () => {
                   <h4 className="nav-work-title">brand identity</h4>
                 </div>
               </div>
-              <a href="#" className="nav-work-btn">
+              <a href="http://github.com/hylithLabs/" className="nav-work-btn">
                 <span className="nav-work-btn__text">All our work</span>
               </a>
             </div>
