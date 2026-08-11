@@ -236,11 +236,11 @@ const HeroSection = () => {
             onClick={(e) => e.stopPropagation()}
           >
             {/* "we" */}
-            <span className="vimeo-hero__word">we </span>
+            <span className="vimeo-hero__word">We </span>
 
             {/* "make" + smiley */}
             <span className="vimeo-hero__word is--relative">
-              <span>make </span>
+              <span>build </span>
               <div className="home-header__smiley">
                 <img
                   src="/assets/VimeoHero SVG/smiley-face.svg"
@@ -252,7 +252,7 @@ const HeroSection = () => {
 
             {/* "advertising" italic */}
             <span className="vimeo-hero__word">
-              <em>advertising </em>
+              <em>full-stack systems </em>
             </span>
 
             {/* "for" */}
