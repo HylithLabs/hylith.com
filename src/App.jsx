@@ -5,7 +5,8 @@ import gsap from "gsap";
 import MessageSection from "./sections/MessageSection";
 import FlavorSection from "./sections/FlavorSection";
 import { useGSAP } from "@gsap/react";
-import NutritionSection from "./sections/NutritionSection";
+import { useEffect } from "react";
+import MotionCards from "./sections/MotionCards";
 import BenefitSection from "./sections/BenefitSection";
 import TestimonialSection from "./sections/TestimonialSection";
 import FooterSection from "./sections/FooterSection";
@@ -20,6 +21,15 @@ const App = () => {
     });
   });
 
+  useEffect(() => {
+    // Force ScrollTrigger to recalculate all scroll positions and heights
+    // after the full component tree (including MotionCards) has mounted.
+    const id = setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 300);
+    return () => clearTimeout(id);
+  }, []);
+
   return (
     <main>
       <NavBar />
@@ -28,7 +38,7 @@ const App = () => {
           <HeroSection />
           <MessageSection />
           <FlavorSection />
-          <NutritionSection />
+          <MotionCards />
 
           <div>
             <BenefitSection />
