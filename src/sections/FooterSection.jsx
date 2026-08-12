@@ -164,10 +164,10 @@ export default function FooterSection() {
                     <div className="footer-column">
                         <span className="footer-badge">office</span>
                         <address>
-                            papaverhof 21<br />
-                            1032 LX amsterdam
+                            Rahmannogor, Bogura<br />
+                            Rajshahi, BD
                         </address>
-                        <a href="#" className="footer-map-link">
+                        <a href="https://maps.app.goo.gl/dQBnG8GDKefDaSxB9" className="footer-map-link">
                             <span>Google Maps</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 169 10" fill="none" className="draw-btn__svg">
                                 <path d="M1 6.5661C56.3941 3.06082 112.187 1.20095 168 0.999878" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.25"></path>
@@ -178,8 +178,8 @@ export default function FooterSection() {
                     {/* Contact */}
                     <div className="footer-column">
                         <span className="footer-badge">contact</span>
-                        <a href="mailto:hello@truus.co" className="footer-email">hello@truus.co</a>
-                        <a href="#" className="footer-whatsapp">send us a whatsapp*</a>
+                        <a href="mailto:hello@hylith.com" className="footer-email">hello@hylith.com</a>
+                        <a href="https://wa.me/hylith" className="footer-whatsapp">send us a whatsapp*</a>
                         <p className="footer-note">*we&apos;re millennials and gen-z: please do not call us.</p>
                         <div className="footer-socials" id="footer-socials">
                             {SOCIAL_ICONS.map(({ href, label, svg }) => (
