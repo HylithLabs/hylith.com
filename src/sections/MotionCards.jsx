@@ -211,12 +211,8 @@ export default function MotionCards() {
 
             {/* ─── Part 3: Bottom Paragraph Text ─── */}
             <div className="motion-card__footer-text">
-                <p className="motion-card__description">
-                    To reach the new generation you need to know where
-                    they are. We are a true 360° agency, working the
-                    whole spectrum from social content to TVC and from influencer
-                    collabs to out of home spectaculars.
-                </p>
+                <p className="motion-card__description">The next generation is already here. They’re online, curious, creative, and probably doing five things at once. So we’re building Hylith for the way people actually live today.
+</p>
             </div>
         </section>
     );
