@@ -15,12 +15,12 @@ const flavorlists = [
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Peanut Butter Chocolate",
-    color: "orange",
+    name: "Portfolio Website",
+    color: "transparent",
     rotation: "md:rotate-[8deg] rotate-0",
   },
   {
-    name: "Vanilla Milkshake",
+    name: "TinyTales",
     color: "white",
     rotation: "md:rotate-[-8deg] rotate-0",
   },

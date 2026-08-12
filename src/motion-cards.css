@@ -60,7 +60,7 @@
     /* placeholder outline – remove once real SVG is inserted */
 }
 
-/* SVG underline under "from TV to TikTok." */
+/* SVG underline under the motion-card subtitle. */
 .motion-card__underline-svg {
     display: block;
     max-width: 720px;

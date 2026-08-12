@@ -132,7 +132,7 @@ export default function MotionCards() {
                     for the future.
                 </h2>
                 <p className="motion-card__subtitle">
-                    from TV to TikTok.
+                    from brand films to social.
                     {/* SVG sticker placeholder — top-right area */}
                     <span className="motion-card__sticker motion-card__sticker--top">
                         <img
@@ -225,7 +225,7 @@ export default function MotionCards() {
                 <p className="motion-card__description">
                     To reach the new generation you need to know where
                     they are. We are a true 360° agency, working the
-                    whole spectrum from TikTok content to TVC and from influencer
+                    whole spectrum from social content to TVC and from influencer
                     collabs to out of home spectaculars.
                 </p>
             </div>
