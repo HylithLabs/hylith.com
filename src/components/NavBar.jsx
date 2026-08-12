@@ -131,7 +131,21 @@ const NavBar = () => {
               <div className="nav-work-item">
                 <div className="nav-work-item__img-wrap">
                   <img
-                    src=""
+                    src="https://images.pexels.com/photos/31410449/pexels-photo-31410449.jpeg"
+                    loading="eager"
+                    alt="Campaign 1"
+                    className="nav-work-item__img"
+                  />
+                </div>
+                <div className="nav-work-item__text">
+                  <span className="nav-work-badge badge-blue">hylith</span>
+                  <h4 className="nav-work-title">Open-Source Development</h4>
+                </div>
+              </div>
+              <div className="nav-work-item">
+                <div className="nav-work-item__img-wrap">
+                  <img
+                    src="https://images.pexels.com/photos/867463/pexels-photo-867463.jpeg"
                     loading="eager"
                     alt="Product Development"
                     className="nav-work-item__img"
@@ -145,7 +159,7 @@ const NavBar = () => {
               <div className="nav-work-item">
                 <div className="nav-work-item__img-wrap">
                   <img
-                    src="https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/686b8e607d351d1335f06e04_f1aafb2150d81c3990c906d901d2e7e4_Esprix.avif"
+                    src="https://images.pexels.com/photos/326514/pexels-photo-326514.jpeg"
                     loading="eager"
                     alt="Campaign 3"
                     className="nav-work-item__img"

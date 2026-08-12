@@ -153,7 +153,7 @@ export default function MotionCards() {
                     <div className="motion-card__card motion-card__card--1">
                         <div className="motion-card__card-image">
                             <img
-                                src="https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/686b8e614494dac669a4099c_c310914b5a1a573b4c7499e9531f8d52_DE.avif"
+                                src="https://ik.imagekit.io/heemsbd/Hylith/60a5cba9d83a4e3a9304d4e892b555c3.webp"
                                 loading="lazy"
                                 alt=""
                                 className="cover-image"
@@ -164,7 +164,7 @@ export default function MotionCards() {
                     <div className="motion-card__card motion-card__card--2">
                         <div className="motion-card__card-image">
                             <img
-                                src="https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/686b8e607142a7a25157d9dd_1875b9852ca289170917f9060c95b6a4_BolpuntJapie.avif"
+                                src="https://ik.imagekit.io/heemsbd/Hylith/imgi_24_606358689_17919556071228505_8449405668067391420_n.webp"
                                 loading="lazy"
                                 alt=""
                                 className="cover-image"
@@ -175,7 +175,7 @@ export default function MotionCards() {
                     <div className="motion-card__card motion-card__card--3">
                         <div className="motion-card__card-image">
                             <img
-                                src="https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/686b8e60ba19eb1109d3daa5_b1280272f47b3cd3ea25b91391935efa_RonaldoMassage.avif"
+                                src="https://ik.imagekit.io/heemsbd/Hylith/1785068761763.jpg"
                                 loading="lazy"
                                 alt=""
                                 className="cover-image"
@@ -186,7 +186,7 @@ export default function MotionCards() {
                     <div className="motion-card__card motion-card__card--4">
                         <div className="motion-card__card-image">
                             <img
-                                src="https://cdn.prod.website-files.com/683703490bc01e1b8c052e06/686b8e607d351d1335f06e04_f1aafb2150d81c3990c906d901d2e7e4_Esprix.avif"
+                                src="https://ik.imagekit.io/heemsbd/Hylith/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f647a6a72686c3176692f696d6167652f75706c6f61642f76313737343136313431332f75706c6f6164732f313737343136313430393933362d576861747341707-.png"
                                 loading="lazy"
                                 alt=""
                                 className="cover-image"
@@ -197,15 +197,15 @@ export default function MotionCards() {
 
                 {/* Floating labels — positioned freely over the cards area */}
                 <div ref={containerRef} className="motion-card__floating-labels">
-                    <div className="motion-card__floating-label motion-card__floating-label--pink">
-                        <p className="motion-card__floating-text">girls just wanna have fun!</p>
-                    </div>
-                    <div className="motion-card__floating-label motion-card__floating-label--orange">
-                        <p className="motion-card__floating-text">mainstream is not a dirty word</p>
-                    </div>
-                    <div className="motion-card__floating-label motion-card__floating-label--red">
-                        <p className="motion-card__floating-text">arrogance = old fashioned</p>
-                    </div>
+<div className="motion-card__floating-label motion-card__floating-label--pink">
+    <p className="motion-card__floating-text">curiosity looks good on everyone!</p>
+</div>
+<div className="motion-card__floating-label motion-card__floating-label--orange">
+    <p className="motion-card__floating-text">different is not a bad thing</p>
+</div>
+<div className="motion-card__floating-label motion-card__floating-label--red">
+    <p className="motion-card__floating-text">Robot's Are Nice!!</p>
+</div>
                 </div>
             </div>
 
