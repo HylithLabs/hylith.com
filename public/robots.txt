@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hylith.com/sitemap.xml
+Host: https://hylith.com
