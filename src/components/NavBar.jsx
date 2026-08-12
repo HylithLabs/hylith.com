@@ -152,7 +152,7 @@ const NavBar = () => {
                   />
                 </div>
                 <div className="nav-work-item__text">
-                  <span className="nav-work-badge badge-navy">spylt</span>
+                  <span className="nav-work-badge badge-navy">Hylith</span>
                   <h4 className="nav-work-title">Website Development</h4>
                 </div>
               </div>
