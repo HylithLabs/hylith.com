@@ -48,11 +48,11 @@
 }
 
 .navbar.on-dark {
-    color: var(--bg-color);
+    color: var(--color-white);
 }
 
 .navbar.on-light {
-    color: var(--color-dark);
+    color: var(--color-white);
 }
 
 .logo-hylith {
@@ -101,7 +101,7 @@
     position: absolute;
     background: var(--bg-color);
     /* Off-white beige from image */
-    color: var(--color-dark);
+    color: var(--color-white);
     border-radius: 16px;
     opacity: 0;
     visibility: hidden;
@@ -149,9 +149,9 @@
     /* Keeps logo ABOVE the popout background */
 }
 
-/* Force text dark when hovering, since popout bg is light */
+/* Force text light when hovering, since popout bg is dark */
 .nav-left:hover .logo-work-text {
-    color: var(--color-dark) !important;
+    color: var(--color-white) !important;
 }
 
 /* The work items layout */
@@ -208,13 +208,13 @@
 
 /* ─── Blue-theme badge variants ─── */
 .badge-blue {
-    background-color: #3b82f6;
-    color: #ffffff;
+    background-color: #065f46;
+    color: #0f172a;
 }
 
 .badge-navy {
-    background-color: #1e3a8a;
-    color: #ffffff;
+    background-color: #d4af37;
+    color: #0f172a;
 }
 
 .nav-work-title {
