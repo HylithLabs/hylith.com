@@ -110,7 +110,7 @@ const NavBar = () => {
 
   return (
     <nav className="navbar">
-      {/* ─── Top-left: Work button (from Truus) ─── */}
+      {/* ─── Top-left: Work button (from hylith) ─── */}
       <div className="nav-left">
         <div className="nav-hover-trigger">
           <div className="logo-work-container">

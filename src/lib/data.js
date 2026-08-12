@@ -17,7 +17,7 @@ export const SOCIAL_ICONS = [
 ];
 
 export const WIGGLE_CONFIG = {
-    logoTruus: 4,
+    logohylith: 4,
     socials: 5,
     jobHeading: 1,
     googleMap: 1,

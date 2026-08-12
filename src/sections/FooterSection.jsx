@@ -197,7 +197,7 @@ export default function FooterSection() {
                     </div>
                 </div>
 
-                {/* Big TRUUS wordmark */}
+                {/* Big hylith wordmark */}
                 <div className="footer-bottom">
                     <div className="footer-big-text">
                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1368 304" fill="none" className="footer-logo__svg" preserveAspectRatio="xMidYMax meet">

@@ -5,28 +5,18 @@ const flavorlists = [
     rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
-    name: "Please ",
-    color: "black",
-    rotation: "md:rotate-[8deg] rotate-0",
-  },
-  {
     name: "HEEMS",
     color: "violet",
-    rotation: "md:rotate-[-8deg] rotate-0",
+    rotation: "md:rotate-[8deg] rotate-0",
   },
   {
     name: "Portfolio Website",
     color: "transparent",
-    rotation: "md:rotate-[8deg] rotate-0",
+    rotation: "md:rotate-[-8deg] rotate-0",
   },
   {
     name: "TinyTales",
     color: "white",
-    rotation: "md:rotate-[-8deg] rotate-0",
-  },
-  {
-    name: "Max Chocolate Milk",
-    color: "black",
     rotation: "md:rotate-[8deg] rotate-0",
   },
 ];

@@ -51,36 +51,36 @@ const BenefitSection = () => {
             Explore the Key Benefits of Choosing SPYLT
           </p>
 
-          <div className="mt-20 col-center">
-            <ClipPathTitle
-              title={"Shelf stable"}
-              color={"#f8fafc"}
-              bg={"#3b82f6"}
-              className={"first-title"}
-              borderColor={"#020617"}
-            />
-            <ClipPathTitle
-              title={"Protein + Caffeine"}
-              color={"#020617"}
-              bg={"#f8fafc"}
-              className={"second-title"}
-              borderColor={"#020617"}
-            />
-            <ClipPathTitle
-              title={"Infinitely recyclable"}
-              color={"#f8fafc"}
-              bg={"#60a5fa"}
-              className={"third-title"}
-              borderColor={"#020617"}
-            />
-            <ClipPathTitle
-              title={"Lactose free"}
-              color={"#020617"}
-              bg={"#dbeafe"}
-              className={"fourth-title"}
-              borderColor={"#020617"}
-            />
-          </div>
+<div className="mt-20 col-center">
+  <ClipPathTitle
+    title={"Built for what's next"}
+    color={"#f8fafc"}
+    bg={"#3b82f6"}
+    className={"first-title"}
+    borderColor={"#020617"}
+  />
+  <ClipPathTitle
+    title={"Technology that connects"}
+    color={"#020617"}
+    bg={"#f8fafc"}
+    className={"second-title"}
+    borderColor={"#020617"}
+  />
+  <ClipPathTitle
+    title={"Ideas without limits"}
+    color={"#f8fafc"}
+    bg={"#60a5fa"}
+    className={"third-title"}
+    borderColor={"#020617"}
+  />
+  <ClipPathTitle
+    title={"Made for real life"}
+    color={"#020617"}
+    bg={"#dbeafe"}
+    className={"fourth-title"}
+    borderColor={"#020617"}
+  />
+</div>
 
           <div className="md:mt-0 mt-10">
             <p>And much more ...</p>
